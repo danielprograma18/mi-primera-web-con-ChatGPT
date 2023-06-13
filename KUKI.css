@@ -1,0 +1,199 @@
+/* Estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+  }
+  
+  p {
+    color: #666;
+  }
+  
+  a {
+    color: #666;
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: #ffcccc;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #ff9999;
+  }
+  
+  /* Estilos específicos para la landing page de adopción de mascotas */
+  
+  header {
+    background-color: #ffd9e6;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #ffd9e6;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 40px;
+  }
+  
+  .section {
+    padding: 80px 0;
+  }
+  
+  #sobre-nosotros {
+    background-color: #e6f2ff;
+  }
+  
+  #mascotas-disponibles {
+    background-color: #f2ffe6;
+  }
+  
+  .pet-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .pet-card {
+    flex: 0 0 calc(33.33% - 20px);
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #ffebf2;
+  }
+  
+  .pet-card img {
+    width: 100%;
+    border-radius: 4px;
+  }
+  
+  #formulario-adopcion {
+    background-color: #e6f2ff;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+  
+  form button[type="submit"] {
+    background-color: #ffcccc;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  form button[type="submit"]:hover {
+    background-color: #ff9999;
+  }
+  
+  #contacto {
+    background-color: #e6ccff;
+  }
+  
+  footer {
+    background-color: #ffd9e6;
+    padding: 20px 0;
+    text-align: center;
+    color: red;
+  }
+  
+  /* Estilos específicos para los colores pasteles */
+  
+  :root {
+    --rosa: #6fd8caaf;
+    --verde: #68b96848;
+    --morado: #a06cd152;
+  }
+  
+  header {
+    background-color: var(--rosa);
+  }
+  
+  #sobre-nosotros {
+    background-color: var(--verde);
+  }
+  
+  #mascotas-disponibles {
+    background-color: var(--morado);
+  }
+  
+  .hero,
+  .pet-card {
+    background-color: #fff;
+  }
+  
+  .cta-button,
+  form button[type="submit"] {
+    background-color: var(--rosa);
+  }
+  
+  #formulario-adopcion {
+    background-color: var(--verde);
+  }
+  
+  #contacto {
+    background-color: var(--morado);
+  }
+  
+  footer {
+    background-color: var(--rosa);
+  }
+  
